@@ -1,0 +1,291 @@
+li{
+	list-style-type:none;
+}
+ul{
+	padding-left:0px;
+}
+#base {
+	border:1px solid black;
+	position:absolute;
+	left:10px;
+	top:0px;
+	width:1500px;
+	height:1050px;
+	text-align:center;
+	list-style-type:none;
+}
+#show {
+	position:absolute;
+	left:10px;
+	top:920px;
+	width:1500px;
+	height:200px;
+	padding-left:20px;
+}
+
+#GeneralPurpose {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:300px;
+	height:300px;
+	background-color:#808080;
+	line-height:300px;
+}
+
+#Fish {
+	position:absolute;
+	left:0px;
+	top:300px;
+	width:300px;
+	height:300px;
+	background-color:#ffcc00;
+	line-height:300px;
+}
+
+#Meat{
+	position:absolute;
+	left:0px;
+	top:600px;
+	width:300px;
+	height:300px;
+	background-color:#0099ff;
+	line-height:300px;
+}
+
+/**********************************level-2*****************************/
+#GeneralPurpose + ul {
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:300px;
+	height:900px;
+	background-color:#a6a6a6;
+	line-height:450px;
+}
+
+#Fish + ul {
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:300px;
+	height:900px;
+	background-color:#ffdb4d;
+	line-height:450px;
+}
+
+#Meat + ul {
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:300px;
+	height:900px;
+	background-color:#33adff;
+	line-height:64px;
+}
+
+/**********************************level-3*****************************/
+#GeneralPurpose + ul  > li > ul{
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:300px;
+	height:900px;
+	background-color:#bfbfbf;
+}
+#SpicesHerbs + ul  > li {
+	line-height:18.5px;
+}
+#DecorativesAdditivesMixes + ul  > li {
+	line-height:300px;
+}
+
+#Fish + ul  > li > ul{
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:300px;
+	height:900px;
+	background-color:#ffeb99;
+}
+#Marinades + ul  > li {
+	line-height:450px;
+}
+#FishSpecialities + ul  > li {
+	line-height:43px;
+}
+
+#Meat + ul > li > ul{
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:300px;
+	height:900px;
+	background-color:#66c2ff;
+}
+#MeatLoafs + ul  > li {
+	line-height:225px;
+}
+#CookedSausages + ul  > li {
+	line-height:450px;
+}
+#CookedSaltedProducts + ul  > li {
+	line-height:225px;
+}
+#Wok + ul  > li {
+	line-height:300px;
+}
+#LiverAndGamePreparations + ul  > li {
+	line-height:450px;
+}
+#BloodPreparations + ul  > li {
+	line-height:300px;
+}
+#DrySausages + ul  > li {
+	line-height:900px;
+}
+#RawSaltedProducts + ul  > li {
+	line-height:450px;
+}
+#Meat-Marinades + ul  > li {
+	line-height:300px;
+}
+#Meat-groundmeat + ul  > li {
+	line-height:90px;
+}
+#Meat-BarbequeSausages + ul  > li {
+	line-height:450px;
+}
+#Meat-American + ul  > li {
+	line-height:300px;
+}
+#Poultry + ul  > li {
+	line-height:450px;
+}
+#Casings + ul  > li {
+	line-height:300px;
+}
+/**********************************level-4*****************************/
+#GeneralPurpose + ul  > li > ul > li > ul{
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:300px;
+	height:900px;
+	background-color:#d9d9d9;
+}
+#Decoratives + ul  > li {
+	line-height:225px;
+}
+#Additives + ul  > li {
+	line-height:300px;
+}
+#GeneralPurpose-Mixes + ul  > li {
+	line-height:41px;
+}
+
+#Fish + ul  > li > ul > li > ul{
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:300px;
+	height:900px;
+	background-color:#fff0b3;
+}
+#OilMarinades + ul  > li {
+	line-height:112.5px;
+}
+#DryMarinades + ul  > li {
+	line-height:128.6px;
+}
+
+#Meat + ul > li > ul > li > ul{
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:300px;
+	height:900px;
+	background-color:#99d6ff;
+}
+#Seasonings + ul  > li {
+	line-height:90px;
+}
+#Meat-Mixes + ul  > li {
+	line-height:150px;
+}
+#LiverGameSeasonings+ ul  > li {
+	line-height:128.6px;
+}
+#LiverGameMixes+ ul  > li {
+	line-height:225px;
+}
+#Meat-oil-marinades+ ul  > li {
+	line-height:100px;
+}
+#Meat-WaterMarinades+ ul  > li {
+	line-height:225px;
+}
+#Meat-drymarinades+ ul  > li {
+	line-height:75px;
+}
+#Meat-Fresh+ ul  > li {
+	line-height:112.5px;
+}
+#Blanched+ ul  > li {
+	line-height:128.6px;
+}
+#Poultry-Preparations+ ul  > li {
+	line-height:112.5px;
+}
+#Poultry-Marinades+ ul  > li {
+	line-height:128.6px;
+}
+
+/**********************************level-5*****************************/
+#GeneralPurpose + ul  > li > ul > li > ul > li > ul{
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:300px;
+	height:900px;
+	background-color:#f2f2f2;
+}
+
+#Fish + ul  > li > ul > li > ul > li > ul{
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:300px;
+	height:900px;
+	background-color:#fff5cc;
+}
+
+#Meat + ul > li > ul > li > ul > li > ul{
+	position:absolute;
+	left:300px;
+	top:0px;
+	width:300px;
+	height:900px;
+	background-color:#ccebff;
+}
+#BreadCrumbs + ul  > li {
+	line-height:180px;
+}
+#SpicedBreadCrumbs + ul  > li {
+	line-height:100px;
+}
+#Toppings + ul  > li {
+	line-height:300px;
+}
+#HerbCoatings + ul  > li {
+	line-height:300px;
+}
+#Additives-General + ul  > li {
+	line-height:60px;
+}
+#Additives-Meat + ul  > li {
+	line-height:75px;
+}
+#Additives-Fish + ul  > li {
+	line-height:128.65px;
+}
