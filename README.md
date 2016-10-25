@@ -1,1 +1,1 @@
-# Spice-Browser
+# Spice Browser
